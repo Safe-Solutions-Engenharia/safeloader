@@ -3,6 +3,7 @@ MANIFEST.in
 README.md
 pyproject.toml
 setup.py
+safeloader/.gitattributes
 safeloader/__init__.py
 safeloader/safeloader.py
 safeloader.egg-info/PKG-INFO
