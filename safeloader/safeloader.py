@@ -6,16 +6,7 @@ from shutil import get_terminal_size
 
 class Loader:
 
-    def __init__(self, desc="Loading...", end="Done!", fail="Failed!", timeout=0.1):
-        """
-        A loader-like context manager
-
-        Args:
-            desc (str, optional): The loader's description. Defaults to "Loading...".
-            end (str, optional): Final print. Defaults to "Done!".
-            fail (str, optional): Fail print. Defaults to "Failed!".
-            timeout (float, optional): Sleep time between prints. Defaults to 0.1.
-        """
+    def __init__(self, desc="Loading...", end="Done!", fail="Failed", timeout=0.1):
         self.desc = desc
         self.end = end
         self.fail = fail
@@ -50,7 +41,6 @@ class Loader:
             print(f"\r{self.desc}.....{self.end}", flush=True)
 
     def __exit__(self, exc_type, exc_value, tb):
-        # handle exceptions with those variables ^
         if exc_type is not None and exc_value is not None and tb is not None:
             self.failed = True
         self.stop()
