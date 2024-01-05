@@ -1,3 +1,5 @@
+# Inspired by Marcos Mysliwiec from https://copyprogramming.com/howto/how-to-code-loading-screen
+
 from time import sleep
 from threading import Thread
 from itertools import cycle
