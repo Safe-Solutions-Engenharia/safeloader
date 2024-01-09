@@ -2,7 +2,7 @@ import pathlib
 from setuptools import setup, find_packages
 setup(
     name="safeloader",
-    version="0.1.0",
+    version="0.1.1",
     description="A simple loading text for simple tasks!",
     long_description=pathlib.Path("README.md").read_text(),
     long_description_content_type="text/markdown",
