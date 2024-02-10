@@ -21,7 +21,7 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
     ],
-    python_requires=">= 3.9, <3.12",
+    python_requires=">= 3.9",
     packages=find_packages(),
     include_package_data=True,
 )
