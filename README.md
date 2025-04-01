@@ -21,4 +21,4 @@ simple_loader.stop()
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE) © Safeloader
